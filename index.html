@@ -13,9 +13,13 @@
 <meta property="og:site_name" content="Italia América">
 <script type="application/ld+json">{"@context": "https://schema.org", "@type": "LegalService", "name": "Italia América", "description": "Servicios legales y notariales internacionales en Milán.", "telephone": "+39 02 99250371", "email": "infoavvocati6@gmail.com", "address": {"@type": "PostalAddress", "streetAddress": "Via dell’Unione 6", "postalCode": "20122", "addressLocality": "Milano", "addressCountry": "IT"}, "availableLanguage": ["Spanish", "Italian"]}</script>
 <meta property="og:locale" content="es_ES">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700&display=swap">
+<style>
+@font-face{font-family:'Manrope';font-style:normal;font-weight:200 800;font-display:swap;src:url(fuente-manrope.woff2) format('woff2')}
+@font-face{font-family:'Cormorant Garamond';font-style:normal;font-weight:300 700;font-display:swap;src:url(fuente-cormorant.woff2) format('woff2')}
+</style>
+<link rel="preload" href="fuente-manrope.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fuente-cormorant.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="imagen-hero.webp" as="image" type="image/webp" fetchpriority="high">
 <style>
 /* Concepto: portada azul institucional con texto a la izquierda y el skyline de Milán a la derecha;
    el resto en blanco y azul pálido. El verde solo marca acción, precio y estado. */
@@ -967,8 +971,8 @@ html:has(dialog[open]){overflow:hidden}
 <p>Personal autorizado de Italia América y, cuando sea necesario para prestar el servicio solicitado, profesionales o proveedores <mark class="todo">[indicar categorías, por ejemplo asesores, notarios, traductores]</mark>. Cuando nos escribe por WhatsApp, el servicio de mensajería lo presta WhatsApp (Meta Platforms Ireland Limited), con su propia <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener noreferrer">política de privacidad</a>.</p>
 <h3>5. Conservación</h3>
 <p>Conservamos los datos durante el tiempo necesario para atender su consulta y, después, durante los plazos que exija la ley: <mark class="todo">[indicar plazo]</mark>.</p>
-<h3>6. Transferencias fuera del Espacio Económico Europeo</h3>
-<p>Esta web carga sus tipografías desde servidores de Google, que reciben la dirección IP del visitante. Véase la política de cookies y la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">política de privacidad de Google</a>.</p>
+<h3>6. Servicios de terceros y transferencias</h3>
+<p>Esta web no carga recursos de terceros al abrirse: las tipografías y las imágenes se sirven desde el propio sitio. Si usted decide abrir WhatsApp, Google Maps, Instagram o Facebook, esos servicios aplican sus propias políticas de privacidad, que pueden incluir transferencias fuera del Espacio Económico Europeo.</p>
 <h3>7. Sus derechos</h3>
 <p>Puede solicitar el acceso a sus datos, su rectificación, supresión, la limitación o la oposición al tratamiento y la portabilidad (arts. 15 a 22 RGPD), escribiendo a <a href="mailto:infoavvocati6@gmail.com">infoavvocati6@gmail.com</a>. Si considera que el tratamiento no es correcto, puede presentar una reclamación ante la autoridad de control italiana, el <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">Garante per la protezione dei dati personali</a>.</p>
 <h3>8. Carácter voluntario</h3>
@@ -989,8 +993,8 @@ html:has(dialog[open]){overflow:hidden}
 <p>Personale autorizzato di Italia América e, quando necessario per fornire il servizio richiesto, professionisti o fornitori <mark class="todo">[indicare le categorie, ad esempio consulenti, notai, traduttori]</mark>. Quando ci scrive su WhatsApp, il servizio di messaggistica è fornito da WhatsApp (Meta Platforms Ireland Limited), con la propria <a href="https://www.whatsapp.com/legal/privacy-policy-eea" target="_blank" rel="noopener noreferrer">informativa sulla privacy</a>.</p>
 <h3>5. Conservazione</h3>
 <p>Conserviamo i dati per il tempo necessario a gestire la sua richiesta e, successivamente, per i termini previsti dalla legge: <mark class="todo">[indicare il periodo]</mark>.</p>
-<h3>6. Trasferimenti al di fuori dello Spazio economico europeo</h3>
-<p>Questo sito carica i caratteri tipografici dai server di Google, che ricevono l’indirizzo IP del visitatore. Vedere la cookie policy e l’<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">informativa sulla privacy di Google</a>.</p>
+<h3>6. Servizi di terzi e trasferimenti</h3>
+<p>Questo sito non carica risorse di terzi all’apertura: i caratteri tipografici e le immagini sono serviti dal sito stesso. Se decide di aprire WhatsApp, Google Maps, Instagram o Facebook, tali servizi applicano le proprie informative sulla privacy, che possono prevedere trasferimenti al di fuori dello Spazio economico europeo.</p>
 <h3>7. I suoi diritti</h3>
 <p>Può chiedere l’accesso ai suoi dati, la rettifica, la cancellazione, la limitazione, l’opposizione al trattamento e la portabilità (artt. 15–22 GDPR), scrivendo a <a href="mailto:infoavvocati6@gmail.com">infoavvocati6@gmail.com</a>. Se ritiene che il trattamento non sia corretto, può proporre reclamo al <a href="https://www.garanteprivacy.it" target="_blank" rel="noopener noreferrer">Garante per la protezione dei dati personali</a>.</p>
 <h3>8. Natura del conferimento</h3>
@@ -1010,7 +1014,7 @@ html:has(dialog[open]){overflow:hidden}
 <h3>2. Cookies de esta web</h3>
 <p>Esta web no instala cookies propias, no usa almacenamiento local del navegador y no incluye analítica ni publicidad. Por ese motivo no se muestra un aviso de cookies al entrar.</p>
 <h3>3. Servicios externos</h3>
-<ul><li><strong>Google Fonts.</strong> Las tipografías se cargan desde servidores de Google, que reciben la dirección IP y los datos técnicos de su navegador. Más información en la <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">política de privacidad de Google</a>.</li><li><strong>Enlaces a otros servicios.</strong> Los enlaces a WhatsApp, Google Maps, Instagram y Facebook abren el servicio correspondiente en otra pestaña, donde se aplican sus propias políticas.</li></ul>
+<ul><li><strong>Tipografías e imágenes.</strong> Se sirven desde el propio sitio: al abrir la página no se contacta con servidores de terceros.</li><li><strong>Enlaces a otros servicios.</strong> Los enlaces a WhatsApp, Google Maps, Instagram y Facebook abren el servicio correspondiente en otra pestaña, donde se aplican sus propias políticas.</li></ul>
 <h3>4. Cambios futuros</h3>
 <p>Si en el futuro se añade analítica, publicidad u otros servicios que usen cookies no técnicas, se pedirá su consentimiento previo y se actualizará esta política.</p>
 <h3>5. Cómo gestionar las cookies</h3>
@@ -1027,7 +1031,7 @@ html:has(dialog[open]){overflow:hidden}
 <h3>2. Cookie di questo sito</h3>
 <p>Questo sito non installa cookie propri, non utilizza l’archiviazione locale del browser e non include strumenti di analisi né di pubblicità. Per questo motivo non viene mostrato alcun banner dei cookie all’accesso.</p>
 <h3>3. Servizi esterni</h3>
-<ul><li><strong>Google Fonts.</strong> I caratteri tipografici vengono caricati dai server di Google, che ricevono l’indirizzo IP e i dati tecnici del browser. Maggiori informazioni nell’<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">informativa sulla privacy di Google</a>.</li><li><strong>Link verso altri servizi.</strong> I link a WhatsApp, Google Maps, Instagram e Facebook aprono il relativo servizio in un’altra scheda, dove si applicano le rispettive informative.</li></ul>
+<ul><li><strong>Caratteri e immagini.</strong> Sono serviti dal sito stesso: all’apertura della pagina non si contattano server di terzi.</li><li><strong>Link verso altri servizi.</strong> I link a WhatsApp, Google Maps, Instagram e Facebook aprono il relativo servizio in un’altra scheda, dove si applicano le rispettive informative.</li></ul>
 <h3>4. Modifiche future</h3>
 <p>Se in futuro verranno aggiunti strumenti di analisi, pubblicità o altri servizi che utilizzano cookie non tecnici, verrà richiesto il consenso preventivo e questa informativa sarà aggiornata.</p>
 <h3>5. Come gestire i cookie</h3>
